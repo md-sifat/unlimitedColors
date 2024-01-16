@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cont{
+    height: 50%;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
