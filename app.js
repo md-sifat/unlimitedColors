@@ -9,4 +9,17 @@ const randomColor = ()=>{
     return color;
 }
 
-console.log(randomColor());
+const changeColor = ()=>{
+    document.querySelector(".cont").style.backgroundColor = randomColor();
+    document.querySelector(".name").innerHTML = randomColor();
+}
+
+let inter;
+document.querySelector(".btn1").addEventListener('click' , ()=>{
+    inter = setInterval(changeColor , 500);
+});
+
+
+document.querySelector(".btn2").addEventListener('click' , ()=>{
+    clearInterval(inter);
+});

@@ -29,6 +29,7 @@ body{
 .name{
     font-weight: 300;
     font-size: xx-large;
+    margin: 10px;
 }
 .btn1{
     margin: 10px;
